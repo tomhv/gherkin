@@ -1,0 +1,8 @@
+name: Reusable Workflow user
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-publish-gherkin-files:
+    uses: tomhv/workflows/.github/workflows/buildAndPublishDockerImage.yml@main
