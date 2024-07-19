@@ -1,4 +1,4 @@
-name: Reusable Workflow user
+name: Build and publish Gherkin files
 
 on:
   workflow_dispatch:
