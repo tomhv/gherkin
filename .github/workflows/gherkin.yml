@@ -5,4 +5,4 @@ on:
 
 jobs:
   build-and-publish-gherkin-files:
-    uses: tomhv/workflows/.github/workflows/buildAndPublishDockerImage.yml@main
+    uses: tomhv/workflows/.github/workflows/gherkin.yml@main
